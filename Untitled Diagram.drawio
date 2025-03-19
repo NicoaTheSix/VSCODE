@@ -4,8 +4,35 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="quFj3h72N23uEDWzQp3o-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="quFj3h72N23uEDWzQp3o-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="150" y="50" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="quFj3h72N23uEDWzQp3o-1" value="&lt;div&gt;Input&lt;/div&gt;Attack Plan&lt;div&gt;Action List&lt;/div&gt;&lt;div&gt;Code of Action&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="quFj3h72N23uEDWzQp3o-3">
+          <mxGeometry width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="quFj3h72N23uEDWzQp3o-2" value="State" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="quFj3h72N23uEDWzQp3o-3">
+          <mxGeometry y="120" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quFj3h72N23uEDWzQp3o-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quFj3h72N23uEDWzQp3o-4" target="quFj3h72N23uEDWzQp3o-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quFj3h72N23uEDWzQp3o-4" value="LLM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="quFj3h72N23uEDWzQp3o-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quFj3h72N23uEDWzQp3o-1" target="quFj3h72N23uEDWzQp3o-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quFj3h72N23uEDWzQp3o-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="quFj3h72N23uEDWzQp3o-6" target="quFj3h72N23uEDWzQp3o-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="270" />
+              <mxPoint x="130" y="270" />
+              <mxPoint x="130" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quFj3h72N23uEDWzQp3o-6" value="建議的動作：&lt;div&gt;-更改Attack Plan&lt;/div&gt;&lt;div&gt;-更新action list&lt;/div&gt;&lt;div&gt;-更改Code of action&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="60" width="160" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
